@@ -1,10 +1,6 @@
 #!/usr/bin/python
 from pwn import *
 # bad bytes: 62 69 63 2f 20 66 6e 73
-
-def xor_obfuscate(string, address, badbytes):
-    return
-
 if __name__ == "__main__":
     payload = ""
     payload += cyclic(40)
